@@ -1,0 +1,12 @@
+var num1 = parseInt(prompt("Digite um número: "))
+var num2= parseInt(prompt("Digite segundo número: "))
+var num3= parseFloat(prompt("Digite terceiro número: "))
+var prod = (num1*2)*(num2/2)
+console.log("O dobro do primeiro com a metade do segundo é de: ",prod)
+alert("O dobro do primeiro com a metade do segundo é de: "+prod)
+var soma = (num1+num1+num1)+num3
+console.log("A soma do triplo do primeiro com o terceiro é de: ",soma)
+alert("A soma do triplo do primeiro com o terceiro é de: "+soma)
+var cubo = (num3*num3*num3)
+console.log("O terceiro número elevado ao cubo é: ",cubo)
+alert("O terceiro número elevado ao cubo é: "+cubo)
